@@ -11,12 +11,11 @@ public class UsuarioModel {
     //Gera um valor sequencial 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    String sobrenome;
-    Byte idade;
-    char sexo;
-
+    private Long id;
+    private String nome;
+    private String sobrenome;
+    private Byte idade;
+    private char sexo;
     public UsuarioModel(){
 
     }
