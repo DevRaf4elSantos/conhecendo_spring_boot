@@ -1,6 +1,5 @@
-package com.testesistem.Banco.Controller.Model;
+package com.testesistem.Banco.Usuario.Model;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.*;
 
 //Transforma uma classe em uma Entity do banco de dados
