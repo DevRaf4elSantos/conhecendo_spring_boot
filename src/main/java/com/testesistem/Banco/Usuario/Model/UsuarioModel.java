@@ -1,6 +1,10 @@
 package com.testesistem.Banco.Usuario.Model;
 
+import com.testesistem.Banco.Servicos.Model.ServicosModel;
 import jakarta.persistence.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 //Transforma uma classe em uma Entity do banco de dados
 @Entity
@@ -10,11 +14,19 @@ public class UsuarioModel {
     //Gera um valor sequencial 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
+
     private String nome;
+
     private String sobrenome;
+
     private Byte idade;
+
     private char sexo;
+
+    private ServicosModel servico;
+
     public UsuarioModel(){
 
     }
